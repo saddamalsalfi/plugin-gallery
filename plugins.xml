@@ -14370,4 +14370,36 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release.</description>
 		</release>
 	</plugin>
+
+
+  <plugin category="importexport" product="copernicus">
+    <name locale="en">Index Copernicus Export</name>
+    <name locale="en_US">Index Copernicus Export</name>
+    <homepage>https://github.com/saddamalsalfi/ojs-index-copernicus-export</homepage>
+
+    <summary locale="en">Export OJS issues and articles to Index Copernicus XML (ICI schema), with optional XSD validation.</summary>
+    <summary locale="en_US">Export OJS issues and articles to Index Copernicus XML (ICI schema), with optional XSD validation.</summary>
+
+    <description locale="en"><![CDATA[
+      <p>Generates ICI-compliant XML using a standalone DOM builder/validator, with multi-language support, DOAJ-like affiliation handling, DOI normalization, and optional XSD validation.</p>
+    ]]></description>
+
+    <maintainer>
+      <name>Saddam Al-Slfi</name>
+      <institution>Queen Arwa University</institution>
+      <email>saddamalsalfi@qau.edu.ye</email>
+    </maintainer>
+
+    <release date="2025-08-27" version="2.0.0.0" md5="f309e2680ae144cd9ffd98617a1efdf7">
+      <package>https://github.com/saddamalsalfi/ojs-index-copernicus-export/releases/download/v2.0.0.0/copernicus_ojs3.5.0-1.tar.gz</package>
+      <compatibility application="ojs2">
+        <version>~3.5.0.0</version>
+      </compatibility>
+      <license>GPL-3.0-or-later</license>
+      <description>First OJS 3.5 compatible release.</description>
+    </release>
+  </plugin>
+
+
+	
 </plugins>
