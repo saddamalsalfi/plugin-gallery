@@ -14347,6 +14347,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="pt_BR">Nova funcionalidade: Atualização de dados preservados na Rede Cariniana. Envio de dados para preservação agora envia apenas o XML atualizado após o primeiro envio. Atualizações automáticas por meio de tarefa agendada monitoram diferenças e enviam email de atualização para a Rede Cariniana. Tarefas agendadas são ativadas automaticamente pelo plugin Acron.</description>
 			<description locale="es_ES">Nueva funcionalidad: Actualización de datos preservados en la Red Cariniana. El envío de datos para preservación ahora envía solo el XML actualizado después del primer envío. Las actualizaciones automáticas a través de tareas programadas monitorean diferencias y envían correos electrónicos de actualización a la Red Cariniana. Las tareas programadas se activan automáticamente por el plugin Acron.</description>
 		</release>
+		<release date="2025-09-02" version="1.5.4.0" md5="b3aa50fa9673624deb49b2908c92d5ac">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.4.0/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This version changes the monitoring frequency of preserved data to weekly, makes form instructions clearer, and handles the responsibility agreement privately with automatic deletion after submission. It also fixes issues caused by user language changes, in addition to improvements in the emails sent to the Cariniana Network.</description>
+			<description locale="pt_BR">Esta versão altera a frequência do monitoramento de dados preservados para semanal, torna as instruções nos formulários mais claras e o termo de responsabilidade é tratado de forma privada, com exclusão automática após o envio. Também corrige problemas causados pela troca de idioma do usuário, além de melhorias nos e-mails enviados para a Rede Cariniana.</description>
+			<description locale="es_ES">Esta versión cambia la frecuencia de monitoreo de los datos preservados a semanal, hace más claras las instrucciones en los formularios y maneja el acuerdo de responsabilidad de forma privada, con eliminación automática tras el envío. También corrige problemas causados por cambios en el idioma del usuario, además de mejoras en los correos enviados a la Red Cariniana.</description>
+		</release>
 	</plugin>
 	<plugin category="blocks" product="navigation">
 		<name locale="en">Navigation Block Plugin</name>
