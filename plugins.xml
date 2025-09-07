@@ -14421,6 +14421,42 @@ the registration of DOIs with mEDRA.</p>]]></description>
     </release>
   </plugin>
 
+<plugin category="importexport" product="quickstatements">
+  <name locale="en">QuickStatements Export</name>
+  <name locale="ar">تصدير QuickStatements لويكي بيانات</name>
+
+  <homepage>https://github.com/saddamalsalfi/ojs-quickstatements</homepage>
+
+  <summary locale="en">Export OJS publication metadata to Wikidata QuickStatements (TSV) for batch item creation/updates.</summary>
+  <summary locale="ar">تصدير بيانات النشر من OJS إلى صيغة QuickStatements (TSV) لاستخدامها في ويكي بيانات.</summary>
+
+  <description locale="en"><![CDATA[
+This import/export plugin generates Wikidata QuickStatements-ready TSV from OJS submissions/publications (titles, authors/ORCIDs, DOIs, issue/volume mapping, etc.). Built for OJS 3.5.
+  ]]></description>
+
+  <description locale="ar"><![CDATA[
+إضافة استيراد/تصدير تُخرِج ملف TSV جاهزًا لـ QuickStatements من بيانات المقالات في OJS (العناوين، المؤلفون/معرّفات ORCID، DOI، معلومات العدد…)، ومهيأة لإصدار OJS 3.5.
+  ]]></description>
+
+  <author>Queen Arwa University – Journal Team</author>
+  <author>Saddam Hussein Al-Salfi</author>
+  <institution>Queen Arwa University Journal</institution>
+  <email>contact@qau.edu.ye</email>
+
+  <release date="2025-09-07" version="1.0.0-3.5" md5="52c7075ae890302a9d3d976d73a5e93c">
+    <!-- استبدل الرابط أدناه برابط GitHub Releases للحزمة نفسها -->
+    <package>https://github.com/saddamalsalfi/ojs-quickstatements-export/releases/download/v1.0.0/quickstatements-v1.0.0-3.5.tar.gz</package>
+
+    <!-- التوافق:  ضع OJS فقط إذا كانت الإضافة مخصّصة لـ OJS -->
+    <compatibility application="ojs2">~3.5.0.0</compatibility>
+    <compatibility application="omp"></compatibility>
+    <compatibility application="ops"></compatibility>
+
+    <license>GPL-3.0-or-later</license>
+    <notes locale="en">Initial public release for OJS 3.5.</notes>
+    <notes locale="ar">الإصدار الأول العام لإصدار OJS 3.5.</notes>
+  </release>
+</plugin>
 
 	
 </plugins>
