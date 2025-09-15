@@ -14426,36 +14426,31 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release.</description>
 		</release>
 	</plugin>
-
-
-  <plugin category="importexport" product="copernicus">
-    <name locale="en">Index Copernicus Export</name>
-    <name locale="en_US">Index Copernicus Export</name>
-    <homepage>https://github.com/saddamalsalfi/ojs-index-copernicus-export</homepage>
-
-    <summary locale="en">Export OJS issues and articles to Index Copernicus XML (ICI schema), with optional XSD validation.</summary>
-    <summary locale="en_US">Export OJS issues and articles to Index Copernicus XML (ICI schema), with optional XSD validation.</summary>
-
-    <description locale="en"><![CDATA[
-      <p>Generates ICI-compliant XML using a standalone DOM builder/validator, with multi-language support, DOAJ-like affiliation handling, DOI normalization, and optional XSD validation.</p>
-    ]]></description>
-
-    <maintainer>
-      <name>Saddam Al-Slfi</name>
-      <institution>Queen Arwa University</institution>
-      <email>saddamalsalfi@qau.edu.ye</email>
-    </maintainer>
-
-    <release date="2025-08-27" version="2.0.0.0" md5="f309e2680ae144cd9ffd98617a1efdf7">
-      <package>https://github.com/saddamalsalfi/ojs-index-copernicus-export/releases/download/v2.0.0.0/copernicus_ojs3.5.0-1.tar.gz</package>
-      <compatibility application="ojs2">
-        <version>~3.5.0.0</version>
-      </compatibility>
-      <license>GPL-3.0-or-later</license>
-      <description>First OJS 3.5 compatible release.</description>
-    </release>
-  </plugin>
-
-
-	
+<plugin category="importexport" product="quickstatements">
+  <name locale="en">Wikidata QuickStatements Export</name>
+  <name locale="ar">تصدير ويكي بيانات عبر QuickStatements</name>
+  <homepage>https://github.com/saddamalsalfi/ojs-quickstatements-export</homepage>
+  <summary locale="en">Export OJS publication metadata (issues/articles) to Wikidata via QuickStatements, with optional auto-submit and DOI de-dup.</summary>
+  <summary locale="ar">تصدير بيانات النشر (أعداد/مقالات) من OJS إلى ويكي بيانات عبر QuickStatements، مع خيار الإرسال التلقائي والتحقق من تكرار DOI.</summary>
+  <description locale="en"><![CDATA[
+An import/export plugin that generates QuickStatements-ready TSV/commands from OJS publications. Supports OJS 3.5.
+  ]]></description>
+  <description locale="ar"><![CDATA[
+إضافة استيراد/تصدير تُنشئ TSV/أوامر جاهزة لـ QuickStatements من بيانات منشورات OJS. تعمل مع OJS 3.5.
+  ]]></description>
+  <author>Queen Arwa University – Journal Team</author>
+  <author>Saddam Hussein Al-Salfi</author>
+  <institution>Queen Arwa University Journal</institution>
+  <email>contact@qau.edu.ye</email>
+  <release date="2025-09-07" version="1.0.0-3.5" md5="e7a6efbbe1a4b4a7d34c26a74e5b449e">
+    <package>https://github.com/saddamalsalfi/ojs-quickstatements-export/releases/download/v1.0.0/quickstatements-v1.0.0-3.5.tar.gz</package>
+	        <compatibility application="ojs2">
+				<version>~3.4.0.9</version>
+				<version>~3.5.0.0</version>
+			</compatibility>
+    <license>GPL-3.0-or-later</license>
+    <notes locale="en">Initial public release for OJS 3.5.</notes>
+    <notes locale="ar">الإصدار العام الأول لـ OJS 3.5.</notes>
+  </release>
+</plugin>
 </plugins>
