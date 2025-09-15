@@ -14439,7 +14439,7 @@ An import/export plugin that generates QuickStatements-ready TSV/commands from O
 إضافة استيراد/تصدير تُنشئ TSV/أوامر جاهزة لـ QuickStatements من بيانات منشورات OJS. تعمل مع OJS 3.5.
   ]]></description>
   <author>Queen Arwa University – Journal Team</author>
-  <author>Saddam Hussein Al-Salfi</author>
+  <author>Saddam Hussein Al-Slfi</author>
   <institution>Queen Arwa University Journal</institution>
   <email>contact@qau.edu.ye</email>
   <release date="2025-09-07" version="1.0.0-3.5" md5="e7a6efbbe1a4b4a7d34c26a74e5b449e">
